@@ -38,6 +38,10 @@ export const VERBS: Verb[] = [
   'federated',
   'defederated',
   'fediblocked',
+  'cuddled',
+  'hugged',
+  'squimshed',
+  'squeezed',
 ];
 
 export const SUBJECTS: string[] = ['nerd', 'dork', 'cutie', 'bro', 'm8', 'pal'];
