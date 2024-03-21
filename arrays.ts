@@ -27,6 +27,7 @@ export const VERBS: Verb[] = [
   'borked',
   'played',
   { word: 'railed', cw: 'lewd' },
+  { word: 'broken', cw: 'lewd?' },
   'booped',
   'bonked',
   'petted',
