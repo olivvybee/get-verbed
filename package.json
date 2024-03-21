@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "tsx ./index.ts"
+    "generate": "tsx ./index.ts",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,8 @@
     "tsx": "^4.7.1",
     "typescript": "^5.4.3",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "vitest": "^1.4.0"
   }
 }

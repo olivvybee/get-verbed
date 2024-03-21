@@ -7,7 +7,7 @@ import { getCW, getWord, randomElement } from './utils';
 const USED_VERBS_PATH = path.resolve('.', 'usedVerbs');
 const USED_SUBJECTS_PATH = path.resolve('.', 'usedSubjects');
 
-export const generate = () => {
+export const generate = (dryRun: boolean) => {
   const usedVerbs = getUsedWords(USED_VERBS_PATH);
   const usedSubjects = getUsedWords(USED_SUBJECTS_PATH);
 
@@ -32,16 +32,19 @@ export const generate = () => {
   const verbWord = getWord(verb);
   const cw = getCW(verb);
 
-  usedVerbs.push(verbWord);
-  usedSubjects.push(subject);
-
-  saveUsedWord(USED_VERBS_PATH, verbWord);
-  saveUsedWord(USED_SUBJECTS_PATH, subject);
+  if (!dryRun) {
+    saveUsedWord(USED_VERBS_PATH, verbWord);
+    saveUsedWord(USED_SUBJECTS_PATH, subject);
+  }
 
   return { post: `Get ${verbWord}, ${subject}`, cw };
 };
 
 const getUsedWords = (path: string) => {
+  if (!fs.existsSync(path)) {
+    fs.writeFileSync(path, '');
+  }
+
   const contents = fs.readFileSync(path, 'utf-8');
   return contents.split('\n').filter((str) => !!str.length);
 };

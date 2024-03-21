@@ -11,7 +11,7 @@ interface MainArgs {
 }
 
 const main = async ({ dryRun = false, visibility }: MainArgs) => {
-  const { post, cw } = generate();
+  const { post, cw } = generate(dryRun);
 
   if (dryRun) {
     console.log(`This is a dry run, but I would have posted "${post}".`);
