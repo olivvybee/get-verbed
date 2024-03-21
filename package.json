@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "tsx ./index.ts",
+    "generate": "tsx ./index.ts",
     "test": "vitest"
   },
   "keywords": [],
