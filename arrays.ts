@@ -27,6 +27,13 @@ export const VERBS: Verb[] = [
   'borked',
   'played',
   { word: 'railed', cw: 'lewd' },
+  'booped',
+  'bonked',
+  'petted',
+  'generated',
+  'goosed',
+  'coded',
+  'installed',
 ];
 
 export const SUBJECTS: string[] = ['nerd', 'dork', 'cutie', 'bro', 'm8', 'pal'];
