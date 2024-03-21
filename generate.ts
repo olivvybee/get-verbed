@@ -42,6 +42,10 @@ export const generate = () => {
 };
 
 const getUsedWords = (path: string) => {
+  if (!fs.existsSync(path)) {
+    fs.writeFileSync(path, '');
+  }
+
   const contents = fs.readFileSync(path, 'utf-8');
   return contents.split('\n').filter((str) => !!str.length);
 };
