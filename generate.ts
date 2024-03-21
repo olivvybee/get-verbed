@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 
 import { VERBS, SUBJECTS } from './arrays';
+import { getCW, getWord, randomElement } from './utils';
 
 const USED_VERBS_PATH = path.resolve('.', 'usedVerbs');
 const USED_SUBJECTS_PATH = path.resolve('.', 'usedSubjects');
@@ -10,7 +11,7 @@ export const generate = () => {
   const usedVerbs = getUsedWords(USED_VERBS_PATH);
   const usedSubjects = getUsedWords(USED_SUBJECTS_PATH);
 
-  let unusedVerbs = VERBS.filter((verb) => !usedVerbs.includes(verb));
+  let unusedVerbs = VERBS.filter((verb) => !usedVerbs.includes(getWord(verb)));
   let unusedSubjects = SUBJECTS.filter(
     (subject) => !usedSubjects.includes(subject)
   );
@@ -28,13 +29,16 @@ export const generate = () => {
   const verb = randomElement(unusedVerbs);
   const subject = randomElement(unusedSubjects);
 
-  usedVerbs.push(verb);
+  const verbWord = getWord(verb);
+  const cw = getCW(verb);
+
+  usedVerbs.push(verbWord);
   usedSubjects.push(subject);
 
-  saveUsedWord(USED_VERBS_PATH, verb);
+  saveUsedWord(USED_VERBS_PATH, verbWord);
   saveUsedWord(USED_SUBJECTS_PATH, subject);
 
-  return `Get ${verb}, ${subject}`;
+  return { post: `Get ${verbWord}, ${subject}`, cw };
 };
 
 const getUsedWords = (path: string) => {
@@ -51,9 +55,4 @@ const saveUsedWord = (path: string, word: string) => {
 
 const resetUsedWords = (path: string) => {
   fs.writeFileSync(path, '');
-};
-
-const randomElement = <T>(array: T[]): T => {
-  const index = Math.floor(Math.random() * array.length);
-  return array[index];
 };

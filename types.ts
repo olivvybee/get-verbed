@@ -6,3 +6,5 @@ export enum Visibility {
   Private = 'private',
   Direct = 'direct',
 }
+
+export type Verb = string | { word: string; cw: string };

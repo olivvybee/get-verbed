@@ -1,4 +1,6 @@
-export const VERBS = [
+import { Verb } from './types';
+
+export const VERBS: Verb[] = [
   'posted',
   'beaned',
   'licked',
@@ -24,6 +26,7 @@ export const VERBS = [
   'loved',
   'borked',
   'played',
+  { word: 'railed', cw: 'lewd' },
 ];
 
-export const SUBJECTS = ['nerd', 'dork', 'cutie', 'bro', 'm8', 'pal'];
+export const SUBJECTS: string[] = ['nerd', 'dork', 'cutie', 'bro', 'm8', 'pal'];
