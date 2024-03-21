@@ -19,6 +19,11 @@ export const VERBS = [
   'foxed',
   'typed',
   '[contributed](https://github.com/olivvybee/get-verbed)',
+  'massaged',
+  'kissed',
+  'loved',
+  'borked',
+  'played',
 ];
 
 export const SUBJECTS = ['nerd', 'dork', 'cutie', 'bro', 'm8', 'pal'];
