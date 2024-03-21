@@ -1,0 +1,20 @@
+{
+  "name": "get-verbed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/yargs": "^17.0.32",
+    "dotenv": "^16.4.5",
+    "masto": "^6.7.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3",
+    "yargs": "^17.7.2"
+  }
+}
