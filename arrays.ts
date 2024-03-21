@@ -43,4 +43,12 @@ export const VERBS: Verb[] = [
   'squeezed',
 ];
 
-export const SUBJECTS: string[] = ['nerd', 'dork', 'cutie', 'bro', 'm8', 'pal'];
+export const SUBJECTS: string[] = [
+  'nerd',
+  'dork',
+  'cutie',
+  'bro',
+  'm8',
+  'pal',
+  'friendo',
+];
