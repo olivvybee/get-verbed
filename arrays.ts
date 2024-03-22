@@ -59,6 +59,7 @@ export const VERBS: Verb[] = [
   'pasted',
   'assembled',
   'bapped',
+  "Blåhaj'd"
 ];
 
 export const SUBJECTS: string[] = [
@@ -69,4 +70,8 @@ export const SUBJECTS: string[] = [
   'm8',
   'pal',
   'friendo',
+  'pet',
+  'pup',
+  'bub',
+  'buddy'
 ];
