@@ -1,0 +1,6 @@
+{
+  "singleQuote": true,
+  "bracketSameLine": true,
+  "proseWrap": "always",
+  "trailingComma": "es5"
+}
