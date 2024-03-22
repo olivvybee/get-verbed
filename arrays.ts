@@ -42,6 +42,7 @@ export const VERBS: Verb[] = [
   'hugged',
   'squimshed',
   'squeezed',
+  'snuggled',
   'noodled',
   'washed',
   { word: 'neobred', cw: 'lewd' },
