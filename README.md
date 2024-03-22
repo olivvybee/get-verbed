@@ -2,7 +2,7 @@
 
 A fedi bot that generates posts with the format `Get {verbed}, {subject}` (e.g.
 "Get petted, nerd"). The canonical version is hosted at
-https://honeycomb.engineer/@getverbed.
+[@getverbed@honeycomb.engineer](https://honeycomb.engineer/@getverbed).
 
 ## Contributing
 
