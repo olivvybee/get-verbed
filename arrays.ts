@@ -47,6 +47,7 @@ export const VERBS: Verb[] = [
   { word: 'neobred', cw: 'lewd' },
   'trained',
   'clicked',
+  'chomped',
 ];
 
 export const SUBJECTS: string[] = [
