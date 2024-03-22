@@ -60,7 +60,7 @@ export const VERBS: Verb[] = [
   'pasted',
   'assembled',
   'bapped',
-  "Blåhaj'd"
+  "Blåhaj'd",
 ];
 
 export const SUBJECTS: string[] = [
@@ -74,5 +74,5 @@ export const SUBJECTS: string[] = [
   'pet',
   'pup',
   'bub',
-  'buddy'
+  'buddy',
 ];
