@@ -48,6 +48,17 @@ export const VERBS: Verb[] = [
   'trained',
   'clicked',
   'chomped',
+  'floofed',
+  'scritched',
+  'discounted',
+  'plushied',
+  'formatted',
+  'deleted',
+  'edited',
+  'copied',
+  'pasted',
+  'assembled',
+  'bapped',
 ];
 
 export const SUBJECTS: string[] = [
