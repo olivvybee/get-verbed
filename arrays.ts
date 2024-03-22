@@ -60,7 +60,17 @@ export const VERBS: Verb[] = [
   'pasted',
   'assembled',
   'bapped',
-  "Blåhaj'd"
+  "Blåhaj'd",
+  { word: 'fucked', cw: 'lewd, aggressive' },
+  'added',
+  'subtracted',
+  'modded',
+  'boymodded',
+  'girlmodded',
+  'gender swapped',
+  'rooted',
+  'rotated',
+  'mrrped'
 ];
 
 export const SUBJECTS: string[] = [
@@ -74,5 +84,8 @@ export const SUBJECTS: string[] = [
   'pet',
   'pup',
   'bub',
-  'buddy'
+  'buddy',
+  'kitten',
+  'baby',
+  'kitty'
 ];
