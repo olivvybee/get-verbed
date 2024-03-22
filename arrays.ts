@@ -60,6 +60,19 @@ export const VERBS: Verb[] = [
   'assembled',
   'bapped',
   "Blåhaj'd",
+  'greebled',
+  'ghosted',
+  'meshed',
+  'printed',
+  'machined',
+  'serialised',
+  'deserialised',
+  'compressed',
+  'decompressed',
+  'zipped',
+  'unzipped',
+  'probed',
+  'got',
 ];
 
 export const SUBJECTS: string[] = [
