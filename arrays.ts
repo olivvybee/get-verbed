@@ -78,6 +78,11 @@ export const VERBS: Verb[] = [
   'zapped',
   'conflicted',
   'overruled',
+  'rotated',
+  'cheesed',
+  'encrypted',
+  'decrypted',
+  'bit',
 ];
 
 export const SUBJECTS: string[] = [
