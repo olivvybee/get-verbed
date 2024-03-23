@@ -5,7 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "generate": "tsx ./index.ts",
-    "test": "vitest"
+    "test": "vitest",
+    "prettier:check": "prettier --check .",
+    "prettier:format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "vitest": "^1.4.0"
   }
 }

@@ -70,7 +70,20 @@ export const VERBS: Verb[] = [
   'gender swapped',
   'rooted',
   'rotated',
-  'mrrped'
+  'mrrped',
+  'greebled',
+  'ghosted',
+  'meshed',
+  'printed',
+  'machined',
+  'serialised',
+  'deserialised',
+  'compressed',
+  'decompressed',
+  'zipped',
+  'unzipped',
+  'probed',
+  'got',
 ];
 
 export const SUBJECTS: string[] = [
@@ -87,5 +100,5 @@ export const SUBJECTS: string[] = [
   'buddy',
   'kitten',
   'baby',
-  'kitty'
+  'kitty',
 ];
