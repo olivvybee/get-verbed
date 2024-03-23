@@ -83,6 +83,7 @@ export const VERBS: Verb[] = [
   'encrypted',
   'decrypted',
   'bit',
+  '1-gritted',
 ];
 
 export const SUBJECTS: string[] = [
@@ -97,4 +98,5 @@ export const SUBJECTS: string[] = [
   'pup',
   'bub',
   'buddy',
+  'babe',
 ];
