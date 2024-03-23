@@ -58,6 +58,7 @@ export const VERBS: Verb[] = [
   'copied',
   'pasted',
   'assembled',
+  'disassembled',
   'bapped',
   "Blåhaj'd",
   'greebled',
@@ -71,8 +72,12 @@ export const VERBS: Verb[] = [
   'decompressed',
   'zipped',
   'unzipped',
-  'probed',
+  { word: 'probed', cw: 'lewd?' },
   'got',
+  'rendered',
+  'zapped',
+  'conflicted',
+  'overruled',
 ];
 
 export const SUBJECTS: string[] = [
@@ -83,7 +88,7 @@ export const SUBJECTS: string[] = [
   'm8',
   'pal',
   'friendo',
-  'pet',
+  'dummy',
   'pup',
   'bub',
   'buddy',
