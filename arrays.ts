@@ -72,7 +72,7 @@ export const VERBS: Verb[] = [
   'decompressed',
   'zipped',
   'unzipped',
-  'probed',
+  { word: 'probed', cw: 'lewd?' },
   'got',
 ];
 
