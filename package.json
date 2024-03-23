@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "generate": "tsx ./index.ts",
+    "count": "tsx ./index.ts --count",
     "test": "vitest",
     "prettier:check": "prettier --check .",
     "prettier:format": "prettier --write ."
