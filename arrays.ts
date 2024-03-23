@@ -84,7 +84,7 @@ export const SUBJECTS: string[] = [
   'm8',
   'pal',
   'friendo',
-  'pet',
+  'dummy',
   'pup',
   'bub',
   'buddy',
