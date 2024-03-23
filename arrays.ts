@@ -85,6 +85,7 @@ export const VERBS: Verb[] = [
   'decrypted',
   'bit',
   '1-gritted',
+  'perceived',
 ];
 
 export const SUBJECTS: string[] = [
