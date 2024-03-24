@@ -4,24 +4,13 @@ import { hideBin } from 'yargs/helpers';
 import { generate } from './generate';
 import { postStatus } from './postStatus';
 import { Visibility } from './types';
-import { countCombinations } from './countCombinations';
 
 interface MainArgs {
   dryRun?: boolean;
   visibility?: Visibility;
-  count?: boolean;
 }
 
-const main = async ({
-  dryRun = false,
-  visibility,
-  count = false,
-}: MainArgs) => {
-  if (count) {
-    countCombinations();
-    process.exit(0);
-  }
-
+const main = async ({ dryRun = false, visibility }: MainArgs) => {
   const { post, cw } = generate(dryRun);
 
   if (dryRun) {
@@ -41,12 +30,6 @@ const argv = yargs(hideBin(process.argv))
     type: 'string',
     choices: Object.values(Visibility),
     description: 'Set the visibility of the post',
-  })
-  .option('count', {
-    alias: 'c',
-    type: 'boolean',
-    description:
-      'Count the number of possible combinations of verbs and subjects',
   })
   .help()
   .alias('h', 'help')
