@@ -1,5 +1,5 @@
 import { config as loadEnv } from 'dotenv';
-import yargs from 'yargs';
+import yargs, { boolean } from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import { generate } from './generate';
 import { postStatus } from './postStatus';
