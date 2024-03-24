@@ -100,6 +100,9 @@ export const VERBS: Verb[] = [
   "fem'd",
   'windowed',
   'fullscreened',
+  'mashed',
+  'logged',
+  "yuri'd",
 ];
 
 export const SUBJECTS: string[] = [
