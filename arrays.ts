@@ -93,6 +93,7 @@ export const VERBS: Verb[] = [
   'texted',
   'dated',
   'snuffled',
+  'pranked',
 ];
 
 export const SUBJECTS: string[] = [
