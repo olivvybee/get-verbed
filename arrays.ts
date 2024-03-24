@@ -85,6 +85,13 @@ export const VERBS: Verb[] = [
   'bit',
   '1-gritted',
   'perceived',
+  'gerrymandered',
+  "lego'd",
+  'melted',
+  'exploded',
+  'texted',
+  'dated',
+  'snuffled',
 ];
 
 export const SUBJECTS: string[] = [
