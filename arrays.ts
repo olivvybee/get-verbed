@@ -94,6 +94,9 @@ export const VERBS: Verb[] = [
   'snuffled',
   'pranked',
   "eel'd",
+  "QSL'd",
+  'tracerouted',
+  "fem'd",
 ];
 
 export const SUBJECTS: string[] = [
