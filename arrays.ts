@@ -91,7 +91,6 @@ export const VERBS: Verb[] = [
   'melted',
   'exploded',
   'texted',
-  'typed',
   'dated',
   'snuffled',
 ];
