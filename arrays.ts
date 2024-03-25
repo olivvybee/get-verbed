@@ -134,5 +134,5 @@ export const SUBJECTS: string[] = [
   'baby',
   'kitty',
   'babe',
-  "noodle",
+  'noodle',
 ];
