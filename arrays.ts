@@ -123,6 +123,8 @@ export const VERBS: Verb[] = [
   'stashed',
   'cloned',
   'rebased',
+  'phished',
+  'hacked',
 ];
 
 export const SUBJECTS: string[] = [
