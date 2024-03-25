@@ -70,7 +70,6 @@ export const VERBS: Verb[] = [
   'girlmoded',
   'gender swapped',
   'rooted',
-  'rotated',
   'mrrped',
   'greebled',
   'ghosted',
