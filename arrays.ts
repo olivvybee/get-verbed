@@ -118,6 +118,10 @@ export const VERBS: Verb[] = [
   'held',
   'comforted',
   'empowered',
+  'merged',
+  'stashed',
+  'cloned',
+  'rebased',
 ];
 
 export const SUBJECTS: string[] = [
