@@ -112,6 +112,10 @@ export const VERBS: Verb[] = [
   'mashed',
   'logged',
   "yuri'd",
+  'cared for',
+  'administrated',
+  'unionised',
+  'deionised',
 ];
 
 export const SUBJECTS: string[] = [
@@ -130,4 +134,5 @@ export const SUBJECTS: string[] = [
   'baby',
   'kitty',
   'babe',
+  "noodle",
 ];
