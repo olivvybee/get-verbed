@@ -115,6 +115,9 @@ export const VERBS: Verb[] = [
   'administrated',
   'unionised',
   'deionised',
+  'held',
+  'comforted',
+  'empowered',
 ];
 
 export const SUBJECTS: string[] = [
