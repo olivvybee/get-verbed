@@ -10,7 +10,6 @@ export const VERBS: Verb[] = [
   "awawawa'd",
   'snoofed',
   'networked',
-  "maeow'd",
   'boosted',
   'migrated',
   'patted',
