@@ -125,6 +125,8 @@ export const VERBS: Verb[] = [
   'phished',
   'hacked',
   "Yaseen'd",
+  'spooned',
+  'scrungled',
 ];
 
 export const SUBJECTS: string[] = [
