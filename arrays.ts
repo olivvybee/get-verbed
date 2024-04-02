@@ -130,6 +130,8 @@ export const VERBS: Verb[] = [
   'released',
   'tagged',
   'backported',
+  'flashed',
+  'cubed',
 ];
 
 export const SUBJECTS: string[] = [
