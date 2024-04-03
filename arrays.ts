@@ -132,6 +132,9 @@ export const VERBS: Verb[] = [
   'backported',
   'flashed',
   'cubed',
+  'locked',
+  'unlocked',
+  { word: 'caged', cw: 'lewd' },
 ];
 
 export const SUBJECTS: string[] = [
