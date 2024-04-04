@@ -139,6 +139,11 @@ export const VERBS: Verb[] = [
   'attributed',
   'backlinked',
   'redirected',
+  'quoted',
+  'subposted',
+  'backed up',
+  'treated',
+  'changed',
 ];
 
 export const SUBJECTS: string[] = [
