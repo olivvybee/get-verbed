@@ -144,6 +144,7 @@ export const VERBS: Verb[] = [
   'backed up',
   'treated',
   'changed',
+  'defenestrated',
 ];
 
 export const SUBJECTS: string[] = [
@@ -163,4 +164,6 @@ export const SUBJECTS: string[] = [
   'kitty',
   'babe',
   'noodle',
+  'chum',
+  "guv'nor",
 ];
