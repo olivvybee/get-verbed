@@ -150,7 +150,6 @@ export const VERBS: Verb[] = [
   'tucked in',
   'poked',
   'dereferenced',
-  'melted',
   'downloaded',
   'uploaded',
 ];
