@@ -145,6 +145,8 @@ export const VERBS: Verb[] = [
   'treated',
   'changed',
   'defenestrated',
+  'carbonated',
+  'decriminalised',
 ];
 
 export const SUBJECTS: string[] = [
