@@ -147,6 +147,11 @@ export const VERBS: Verb[] = [
   'defenestrated',
   'carbonated',
   'decriminalised',
+  'tucked in',
+  'poked',
+  'dereferenced',
+  'downloaded',
+  'uploaded',
 ];
 
 export const SUBJECTS: string[] = [
