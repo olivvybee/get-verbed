@@ -153,6 +153,8 @@ export const VERBS: Verb[] = [
   'downloaded',
   'uploaded',
   { word: 'boofed', cw: 'lewd?' },
+  'minted',
+  'calibrated',
 ];
 
 export const SUBJECTS: string[] = [
