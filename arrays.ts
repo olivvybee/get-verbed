@@ -157,7 +157,6 @@ export const VERBS: Verb[] = [
   'minted',
   'calibrated',
   'tinned',
-  'generated',
 ];
 
 export const SUBJECTS: string[] = [
