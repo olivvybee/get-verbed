@@ -115,6 +115,7 @@ export const VERBS: Verb[] = [
   'administrated',
   'unionised',
   'deionised',
+  'ionised',
   'held',
   'comforted',
   'empowered',
@@ -155,6 +156,8 @@ export const VERBS: Verb[] = [
   { word: 'boofed', cw: 'lewd?' },
   'minted',
   'calibrated',
+  'tinned',
+  'generated',
 ];
 
 export const SUBJECTS: string[] = [
