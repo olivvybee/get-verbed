@@ -157,6 +157,10 @@ export const VERBS: Verb[] = [
   'minted',
   'calibrated',
   'tinned',
+  'deprecated',
+  'tested',
+  'reviewed',
+  'deduplicated',
 ];
 
 export const SUBJECTS: string[] = [
@@ -178,4 +182,5 @@ export const SUBJECTS: string[] = [
   'noodle',
   'chum',
   "guv'nor",
+  'captain',
 ];
