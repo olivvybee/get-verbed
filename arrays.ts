@@ -161,6 +161,8 @@ export const VERBS: Verb[] = [
   'tested',
   'reviewed',
   'deduplicated',
+  'hydrated',
+  'vacuum-packed',
 ];
 
 export const SUBJECTS: string[] = [
