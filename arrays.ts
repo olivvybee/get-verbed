@@ -164,6 +164,7 @@ export const VERBS: Verb[] = [
   'hydrated',
   'vacuum-packed',
   'walked',
+  'scrobbled',
 ];
 
 export const SUBJECTS: string[] = [
