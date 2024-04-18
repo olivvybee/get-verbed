@@ -166,6 +166,9 @@ export const VERBS: Verb[] = [
   'walked',
   'scrobbled',
   'hetznered',
+  'hired',
+  'fired',
+  'mapped',
 ];
 
 export const SUBJECTS: string[] = [
