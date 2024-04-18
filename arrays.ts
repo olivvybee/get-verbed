@@ -170,6 +170,20 @@ export const VERBS: Verb[] = [
   'fired',
   'mapped',
   'buffaloed',
+  'cancelled',
+  'banned',
+  'spotted',
+  'breaded',
+  'inflated',
+  'sugar-coated',
+  'randomised',
+  'showered',
+  'inspected',
+  'reassigned',
+  'rearranged',
+  'alphabetised',
+  'wrapped up',
+  'emulated',
 ];
 
 export const SUBJECTS: string[] = [
