@@ -185,6 +185,9 @@ export const VERBS: Verb[] = [
   'wrapped up',
   'emulated',
   'cropped',
+  'distilled',
+  'planted',
+  'viewed',
 ];
 
 export const SUBJECTS: string[] = [
