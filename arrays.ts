@@ -205,6 +205,7 @@ export const VERBS: Verb[] = [
   'collared',
   'liked',
   'moistened',
+  'seasoned',
 ];
 
 export const SUBJECTS: string[] = [
