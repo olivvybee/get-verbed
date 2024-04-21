@@ -188,6 +188,23 @@ export const VERBS: Verb[] = [
   'distilled',
   'planted',
   'viewed',
+  'measured',
+  'tumble-dried',
+  'italicised',
+  'distracted',
+  'dressed',
+  'stabilised',
+  'warped',
+  'trammed',
+  'adjusted',
+  'scrubbed',
+  'isolated',
+  'instrumented',
+  'monitored',
+  'leashed',
+  'collared',
+  'liked',
+  'moistened',
 ];
 
 export const SUBJECTS: string[] = [
