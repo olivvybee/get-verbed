@@ -207,6 +207,8 @@ export const VERBS: Verb[] = [
   'moistened',
   'seasoned',
   'appreciated',
+  'depressurised',
+  'recycled',
 ];
 
 export const SUBJECTS: string[] = [
