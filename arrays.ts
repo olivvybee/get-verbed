@@ -230,6 +230,7 @@ export const VERBS: Verb[] = [
   'defragged',
   'treasured',
   'incinerated',
+  'assimilated',
 ];
 
 export const SUBJECTS: string[] = [
