@@ -214,6 +214,20 @@ export const VERBS: Verb[] = [
   'boiled',
   'steamed',
   'grilled',
+  'scanned',
+  'brewed',
+  'extracted',
+  'illuminated',
+  'dyed',
+  'painted',
+  'questioned',
+  'faxed',
+  'destroyed',
+  'ruined',
+  'returned',
+  'caffeinated',
+  'decaffeinated',
+  'defragged',
 ];
 
 export const SUBJECTS: string[] = [
@@ -221,7 +235,7 @@ export const SUBJECTS: string[] = [
   'dork',
   'cutie',
   'bro',
-  'm8',
+  'mate',
   'pal',
   'friendo',
   'dummy',
@@ -236,4 +250,5 @@ export const SUBJECTS: string[] = [
   'chum',
   "guv'nor",
   'captain',
+  'princess',
 ];
