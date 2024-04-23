@@ -221,7 +221,7 @@ export const SUBJECTS: string[] = [
   'dork',
   'cutie',
   'bro',
-  'm8',
+  'mate',
   'pal',
   'friendo',
   'dummy',
@@ -236,4 +236,5 @@ export const SUBJECTS: string[] = [
   'chum',
   "guv'nor",
   'captain',
+  'princess',
 ];
