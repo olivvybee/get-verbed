@@ -228,6 +228,8 @@ export const VERBS: Verb[] = [
   'caffeinated',
   'decaffeinated',
   'defragged',
+  'treasured',
+  'incinerated',
 ];
 
 export const SUBJECTS: string[] = [
