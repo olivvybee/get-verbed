@@ -231,6 +231,8 @@ export const VERBS: Verb[] = [
   'treasured',
   'incinerated',
   'assimilated',
+  'patched',
+  'updated',
 ];
 
 export const SUBJECTS: string[] = [
