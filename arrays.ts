@@ -234,6 +234,8 @@ export const VERBS: Verb[] = [
   'patched',
   'updated',
   'paged',
+  "ack'd",
+  { word: 'pegged', cw: 'lewd!' },
 ];
 
 export const SUBJECTS: string[] = [
