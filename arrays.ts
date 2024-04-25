@@ -233,6 +233,7 @@ export const VERBS: Verb[] = [
   'assimilated',
   'patched',
   'updated',
+  'paged',
 ];
 
 export const SUBJECTS: string[] = [
