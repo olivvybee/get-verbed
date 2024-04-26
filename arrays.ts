@@ -237,6 +237,11 @@ export const VERBS: Verb[] = [
   "ack'd",
   { word: 'pegged', cw: 'lewd!' },
   'complimented',
+  'parameterised',
+  'encoded',
+  'cultivated',
+  'harvested',
+  'forked',
 ];
 
 export const SUBJECTS: string[] = [
