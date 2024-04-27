@@ -244,6 +244,9 @@ export const VERBS: Verb[] = [
   'forked',
   'nuzzled',
   'repaired',
+  'justified',
+  'centered',
+  'left-aligned',
 ];
 
 export const SUBJECTS: string[] = [
