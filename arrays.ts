@@ -242,6 +242,7 @@ export const VERBS: Verb[] = [
   'cultivated',
   'harvested',
   'forked',
+  'nuzzled',
 ];
 
 export const SUBJECTS: string[] = [
