@@ -248,6 +248,9 @@ export const VERBS: Verb[] = [
   'justified',
   'centered',
   'left-aligned',
+  'pirated',
+  'torrented',
+  'shuffled',
 ];
 
 export const SUBJECTS: Subject[] = [
