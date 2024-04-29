@@ -10,8 +10,8 @@ export const getWord = (entry: Entry) => {
 
 export const getCW = (verb: Entry, subject: Entry): string | undefined => {
   const cws = [verb, subject]
-    .map((entry) => typeof entry !== 'string' ? entry.cw : undefined)
-    .filter(item => !!item);
+    .map((entry) => (typeof entry !== 'string' ? entry.cw : undefined))
+    .filter((item) => !!item);
 
   return cws.length ? cws.join(', ') : undefined;
 };
