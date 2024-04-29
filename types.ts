@@ -7,4 +7,4 @@ export enum Visibility {
   Direct = 'direct',
 }
 
-export type Verb = string | { word: string; cw: string };
+export type Entry = string | { word: string; cw: string };

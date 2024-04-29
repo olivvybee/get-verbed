@@ -1,6 +1,6 @@
-import { Verb } from './types';
+import { Entry } from './types';
 
-export const VERBS: Verb[] = [
+export const VERBS: Entry[] = [
   'posted',
   'beaned',
   'licked',
@@ -45,6 +45,7 @@ export const VERBS: Verb[] = [
   'noodled',
   'washed',
   { word: 'neobred', cw: 'lewd' },
+  { word: 'bred', cw: 'lewd' },
   'trained',
   'clicked',
   'chomped',
@@ -252,7 +253,7 @@ export const VERBS: Verb[] = [
   'shuffled',
 ];
 
-export const SUBJECTS: string[] = [
+export const SUBJECTS: Entry[] = [
   'nerd',
   'dork',
   'cutie',

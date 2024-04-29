@@ -13,7 +13,7 @@ export const generate = (dryRun: boolean) => {
 
   let unusedVerbs = VERBS.filter((verb) => !usedVerbs.includes(getWord(verb)));
   let unusedSubjects = SUBJECTS.filter(
-    (subject) => !usedSubjects.includes(subject)
+    (subject) => !usedSubjects.includes(getWord(subject))
   );
 
   if (!unusedVerbs.length) {
@@ -30,14 +30,15 @@ export const generate = (dryRun: boolean) => {
   const subject = randomElement(unusedSubjects);
 
   const verbWord = getWord(verb);
-  const cw = getCW(verb);
+  const subjectWord = getWord(subject);
+  const cw = getCW(verb, subject);
 
   if (!dryRun) {
     saveUsedWord(USED_VERBS_PATH, verbWord);
-    saveUsedWord(USED_SUBJECTS_PATH, subject);
+    saveUsedWord(USED_SUBJECTS_PATH, subjectWord);
   }
 
-  return { post: `Get ${verbWord}, ${subject}`, cw };
+  return { post: `Get ${verbWord}, ${subjectWord}`, cw };
 };
 
 const getUsedWords = (path: string) => {
