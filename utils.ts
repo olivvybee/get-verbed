@@ -1,29 +1,19 @@
-import { Subject, Verb } from './types';
+import { Entry } from './types';
 
-export const getWord = (word: Verb | Subject) => {
-  if (typeof word === 'string') {
-    return word;
+export const getWord = (entry: Entry) => {
+  if (typeof entry === 'string') {
+    return entry;
   } else {
-    return word.word;
+    return entry.word;
   }
 };
 
-export const getCW = (verb: Verb, subject: Subject): string | undefined => {
-  let cw: string | undefined = undefined;
+export const getCW = (verb: Entry, subject: Entry): string | undefined => {
+  const cws = [verb, subject]
+    .map((entry) => typeof entry !== 'string' ? entry.cw : undefined)
+    .filter(item => !!item);
 
-  if (typeof verb !== 'string') {
-    cw = verb.cw;
-  }
-
-  if (typeof subject !== 'string') {
-    if (typeof cw !== 'undefined') {
-      cw += ', ' + subject.cw;
-    } else {
-      cw = subject.cw;
-    }
-  }
-
-  return cw;
+  return cws.length ? cws.join(', ') : undefined;
 };
 
 export const randomElement = <T>(array: T[]): T => {
