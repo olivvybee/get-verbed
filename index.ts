@@ -15,6 +15,9 @@ const main = async ({ dryRun = false, visibility }: MainArgs) => {
 
   if (dryRun) {
     console.log(`This is a dry run, but I would have posted "${post}".`);
+    if (typeof cw !== 'undefined') {
+      console.log(`With this CW: ${cw}`);
+    }
   } else {
     postStatus(post, { visibility, contentWarning: cw });
   }

@@ -38,7 +38,7 @@ describe('arrays', () => {
   });
 
   it('has no duplicates in the subjects array', () => {
-    const subjects = SUBJECTS.map((word) => word.toLowerCase());
+    const subjects = SUBJECTS.map(getWord).map((word) => word.toLowerCase());
     expect(subjects).toContainNoDuplicates();
   });
 });

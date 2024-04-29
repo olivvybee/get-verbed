@@ -1,4 +1,4 @@
-import { Verb } from './types';
+import { Subject, Verb } from './types';
 
 export const VERBS: Verb[] = [
   'posted',
@@ -45,6 +45,7 @@ export const VERBS: Verb[] = [
   'noodled',
   'washed',
   { word: 'neobred', cw: 'lewd' },
+  { word: 'bred', cw: 'lewd' },
   'trained',
   'clicked',
   'chomped',
@@ -249,7 +250,7 @@ export const VERBS: Verb[] = [
   'left-aligned',
 ];
 
-export const SUBJECTS: string[] = [
+export const SUBJECTS: Subject[] = [
   'nerd',
   'dork',
   'cutie',

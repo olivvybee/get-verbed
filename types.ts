@@ -8,3 +8,4 @@ export enum Visibility {
 }
 
 export type Verb = string | { word: string; cw: string };
+export type Subject = string | { word: string; cw: string };
