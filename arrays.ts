@@ -249,6 +249,7 @@ export const VERBS: Verb[] = [
   'left-aligned',
   'pirated',
   'torrented',
+  'shuffled',
 ];
 
 export const SUBJECTS: string[] = [
