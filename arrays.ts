@@ -251,6 +251,7 @@ export const VERBS: Entry[] = [
   'pirated',
   'torrented',
   'shuffled',
+  'retracted',
 ];
 
 export const SUBJECTS: Entry[] = [
