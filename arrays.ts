@@ -258,6 +258,16 @@ export const VERBS: Entry[] = [
   'knitted',
   'crocheted',
   'needle-felted',
+  'patented',
+  'trademarked',
+  'served',
+  'litigated',
+  'soloed',
+  'extended',
+  'upgraded',
+  'promoted',
+  'marketed',
+  'owned',
 ];
 
 export const SUBJECTS: Entry[] = [
