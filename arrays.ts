@@ -269,6 +269,7 @@ export const VERBS: Entry[] = [
   'marketed',
   'owned',
   'endorsed',
+  'bathed',
 ];
 
 export const SUBJECTS: Entry[] = [
