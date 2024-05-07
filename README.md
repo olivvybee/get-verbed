@@ -20,15 +20,15 @@ Both the `verb`s and the `subject`s are stored in arrays in
 [arrays.ts](/blob/main/arrays.ts). New words can simply be added to these
 arrays.
 
-The `VERBS` array can contain either plain strings or an object containing a
-word and a content warning. This should be used if the verb you're adding could
-be uncomfortable for people (e.g. if it's lewd).
+They both can contain either plain strings or an object containing a word and a
+content warning. This should be used if the word you're adding could be
+uncomfortable for people (e.g. if it's lewd).
 
 ```ts
 { word: 'hand-held', cw: 'extremely lewd' }
 ```
 
-Duplicate detection runs as a PR check, so you won't be able to merge fi you add
+Duplicate detection runs as a PR check, so you won't be able to merge if you add
 duplicate words to the arrays.
 
 ### Prettier
