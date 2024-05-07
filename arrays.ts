@@ -275,6 +275,9 @@ export const VERBS: Entry[] = [
   { word: 'edged', cw: 'lewd' },
   'buttered',
   'eluded',
+  'delivered',
+  'tracked',
+  'packaged',
 ];
 
 export const SUBJECTS: Entry[] = [
