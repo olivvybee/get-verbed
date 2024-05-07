@@ -278,6 +278,7 @@ export const VERBS: Entry[] = [
   'delivered',
   'tracked',
   'packaged',
+  'paid',
 ];
 
 export const SUBJECTS: Entry[] = [
