@@ -282,6 +282,7 @@ export const VERBS: Entry[] = [
   'rebooted',
   'bamboozled',
   'woozied',
+  'informed',
 ];
 
 export const SUBJECTS: Entry[] = [
