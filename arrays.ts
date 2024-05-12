@@ -286,6 +286,7 @@ export const VERBS: Entry[] = [
   'influenced',
   'exposed',
   'taught',
+  'interviewed',
 ];
 
 export const SUBJECTS: Entry[] = [
