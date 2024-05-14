@@ -310,4 +310,7 @@ export const SUBJECTS: Entry[] = [
   "guv'nor",
   'captain',
   'princess',
+  'multiplied',
+  'divided',
+  'factorised',
 ];
