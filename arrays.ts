@@ -311,4 +311,7 @@ export const SUBJECTS: Entry[] = [
   'captain',
   'princess',
   { word: 'idiot', cw: 'aggressive (tsundere)' },
+  'multiplied',
+  'divided',
+  'factorised',
 ];
