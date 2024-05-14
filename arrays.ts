@@ -290,6 +290,9 @@ export const VERBS: Entry[] = [
   'derailed',
   'uncoupled',
   'diverted',
+  'multiplied',
+  'divided',
+  'factorised',
 ];
 
 export const SUBJECTS: Entry[] = [
