@@ -293,6 +293,7 @@ export const VERBS: Entry[] = [
   'multiplied',
   'divided',
   'factorised',
+  'categorised',
 ];
 
 export const SUBJECTS: Entry[] = [
