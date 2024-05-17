@@ -295,6 +295,10 @@ export const VERBS: Entry[] = [
   'factorised',
   'categorised',
   'befriended',
+  'transformed',
+  'sheared',
+  'skewed',
+  'translated',
 ];
 
 export const SUBJECTS: Entry[] = [
