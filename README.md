@@ -20,9 +20,9 @@ Both the `verb`s and the `subject`s are stored in arrays in
 [arrays.ts](/blob/main/arrays.ts). New words can simply be added to these
 arrays.
 
-The `VERBS` array can contain either plain strings or an object containing a
-word and a content warning. This should be used if the verb you're adding could
-be uncomfortable for people (e.g. if it's lewd).
+Both word arrays can contain either plain strings or an object containing a word
+and a content warning. This should be used if the word you're adding could be
+uncomfortable for people (e.g. if it's lewd).
 
 ```ts
 { word: 'hand-held', cw: 'extremely lewd' }
