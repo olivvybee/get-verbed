@@ -299,6 +299,7 @@ export const VERBS: Entry[] = [
   'sheared',
   'skewed',
   'translated',
+  'nerdsniped',
 ];
 
 export const SUBJECTS: Entry[] = [
