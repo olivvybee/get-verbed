@@ -300,6 +300,7 @@ export const VERBS: Entry[] = [
   'skewed',
   'translated',
   'nerdsniped',
+  'tickled',
 ];
 
 export const SUBJECTS: Entry[] = [
