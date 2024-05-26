@@ -303,6 +303,7 @@ export const VERBS: Entry[] = [
   'tickled',
   'teleported',
   'respected',
+  'challenged',
 ];
 
 export const SUBJECTS: Entry[] = [
