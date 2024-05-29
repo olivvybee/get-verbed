@@ -304,6 +304,7 @@ export const VERBS: Entry[] = [
   'teleported',
   'respected',
   'challenged',
+  'roasted',
 ];
 
 export const SUBJECTS: Entry[] = [
