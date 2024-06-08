@@ -309,6 +309,8 @@ export const VERBS: Entry[] = [
   "DM'd",
   'recruited',
   'pixellated',
+  'demonetised',
+  'published',
 ];
 
 export const SUBJECTS: Entry[] = [
