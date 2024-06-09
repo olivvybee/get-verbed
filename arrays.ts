@@ -311,6 +311,8 @@ export const VERBS: Entry[] = [
   'pixellated',
   'demonetised',
   'published',
+  'reported',
+  'repotted',
 ];
 
 export const SUBJECTS: Entry[] = [
