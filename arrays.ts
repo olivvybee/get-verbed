@@ -313,6 +313,7 @@ export const VERBS: Entry[] = [
   'published',
   'reported',
   'repotted',
+  'certified',
 ];
 
 export const SUBJECTS: Entry[] = [
