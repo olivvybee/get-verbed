@@ -318,6 +318,7 @@ export const VERBS: Entry[] = [
   '`flatMap`ped',
   'privatised',
   'publicised',
+  'buttered',
 ];
 
 export const SUBJECTS: Entry[] = [
