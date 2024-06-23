@@ -319,6 +319,7 @@ export const VERBS: Entry[] = [
   'privatised',
   'publicised',
   'hoovered',
+  'embezzled'
 ];
 
 export const SUBJECTS: Entry[] = [
