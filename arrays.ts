@@ -322,7 +322,6 @@ export const VERBS: Entry[] = [
   'embezzled',
   'refunded',
   'checked in',
-  'exploded',
   'taxied',
   'embarrassed',
 ];
