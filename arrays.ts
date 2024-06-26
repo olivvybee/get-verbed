@@ -320,6 +320,10 @@ export const VERBS: Entry[] = [
   'publicised',
   'hoovered',
   'embezzled',
+  'refunded',
+  'checked in',
+  'taxied',
+  'embarrassed',
 ];
 
 export const SUBJECTS: Entry[] = [
