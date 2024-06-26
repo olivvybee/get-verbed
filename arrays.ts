@@ -324,6 +324,8 @@ export const VERBS: Entry[] = [
   'checked in',
   'taxied',
   'embarrassed',
+  'degaussed',
+  'renamed',
 ];
 
 export const SUBJECTS: Entry[] = [
