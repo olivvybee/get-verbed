@@ -353,4 +353,6 @@ export const SUBJECTS: Entry[] = [
   'captain',
   'princess',
   'minister',
+  'lad',
+  'lassie',
 ];
