@@ -331,11 +331,9 @@ export const VERBS: Entry[] = [
   'elected',
   'enlightened',
   'stacked',
-  'illuminated',
   'backfilled',
   'displayed',
   'unpacked',
-  'dressed',
 ];
 
 export const SUBJECTS: Entry[] = [
