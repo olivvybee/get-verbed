@@ -328,6 +328,7 @@ export const VERBS: Entry[] = [
   'renamed',
   'jailbroken',
   'fed',
+  'elected',
 ];
 
 export const SUBJECTS: Entry[] = [
@@ -351,4 +352,5 @@ export const SUBJECTS: Entry[] = [
   "guv'nor",
   'captain',
   'princess',
+  'minister',
 ];
