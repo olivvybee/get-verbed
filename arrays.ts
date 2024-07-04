@@ -334,6 +334,13 @@ export const VERBS: Entry[] = [
   'backfilled',
   'displayed',
   'unpacked',
+  'rounded',
+  'bevelled',
+  'chamfered',
+  'dovetailed',
+  'sanded',
+  'polished',
+  'oiled',
 ];
 
 export const SUBJECTS: Entry[] = [
