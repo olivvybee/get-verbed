@@ -343,6 +343,8 @@ export const VERBS: Entry[] = [
   'oiled',
   'doomed',
   'cursed',
+  'planed',
+  'deplaned',
 ];
 
 export const SUBJECTS: Entry[] = [
