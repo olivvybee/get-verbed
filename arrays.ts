@@ -346,6 +346,8 @@ export const VERBS: Entry[] = [
   'planed',
   'deplaned',
   'nomfed',
+  'filtered',
+  'noticed',
 ];
 
 export const SUBJECTS: Entry[] = [
