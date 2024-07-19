@@ -348,6 +348,7 @@ export const VERBS: Entry[] = [
   'nomfed',
   'filtered',
   'noticed',
+  'renationalised',
 ];
 
 export const SUBJECTS: Entry[] = [
