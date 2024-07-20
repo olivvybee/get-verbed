@@ -349,6 +349,10 @@ export const VERBS: Entry[] = [
   'filtered',
   'noticed',
   'renationalised',
+  'photocopied',
+  'photographed',
+  'filmed',
+  'developed',
 ];
 
 export const SUBJECTS: Entry[] = [
