@@ -353,6 +353,7 @@ export const VERBS: Entry[] = [
   'photographed',
   'filmed',
   'developed',
+  'defrosted',
 ];
 
 export const SUBJECTS: Entry[] = [
