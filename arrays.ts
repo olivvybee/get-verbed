@@ -358,6 +358,8 @@ export const VERBS: Entry[] = [
   'muted',
   'unmuted',
   "QA'd",
+  'regenerated',
+  'remastered',
 ];
 
 export const SUBJECTS: Entry[] = [
