@@ -357,6 +357,7 @@ export const VERBS: Entry[] = [
   'unfollowed',
   'muted',
   'unmuted',
+  "QA'd",
 ];
 
 export const SUBJECTS: Entry[] = [
