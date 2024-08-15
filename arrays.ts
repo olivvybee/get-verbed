@@ -360,6 +360,8 @@ export const VERBS: Entry[] = [
   "QA'd",
   'regenerated',
   'remastered',
+  'infused',
+  'steeped',
 ];
 
 export const SUBJECTS: Entry[] = [
