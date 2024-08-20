@@ -362,6 +362,10 @@ export const VERBS: Entry[] = [
   'remastered',
   'infused',
   'steeped',
+  'muzzled',
+  "gerber'd",
+  'autorouted',
+  'soldered',
 ];
 
 export const SUBJECTS: Entry[] = [
