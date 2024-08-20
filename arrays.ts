@@ -363,6 +363,7 @@ export const VERBS: Entry[] = [
   'muzzled',
   "gerber'd",
   'autorouted',
+  'soldered',
 ];
 
 export const SUBJECTS: Entry[] = [
