@@ -366,6 +366,7 @@ export const VERBS: Entry[] = [
   "gerber'd",
   'autorouted',
   'soldered',
+  "YAML'd",
 ];
 
 export const SUBJECTS: Entry[] = [
