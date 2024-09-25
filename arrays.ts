@@ -367,6 +367,11 @@ export const VERBS: Entry[] = [
   'autorouted',
   'soldered',
   "YAML'd",
+  'checkmated',
+  'described',
+  'cleaned',
+  'collected',
+  'lost',
 ];
 
 export const SUBJECTS: Entry[] = [
