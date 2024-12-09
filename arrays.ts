@@ -372,6 +372,10 @@ export const VERBS: Entry[] = [
   'cleaned',
   'collected',
   'lost',
+  'romanced',
+  'romanticised',
+  'validated',
+  'invalidated',
 ];
 
 export const SUBJECTS: Entry[] = [
