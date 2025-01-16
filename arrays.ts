@@ -380,6 +380,7 @@ export const VERBS: Entry[] = [
   "RMC'd",
   'cherished',
   'decentralised',
+  'containerised',
 ];
 
 export const SUBJECTS: Entry[] = [
