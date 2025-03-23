@@ -381,6 +381,10 @@ export const VERBS: Entry[] = [
   'cherished',
   'decentralised',
   'containerised',
+  'ratioed',
+  'commissioned',
+  'decommissioned',
+  "DeustcheBahn'd",
 ];
 
 export const SUBJECTS: Entry[] = [
