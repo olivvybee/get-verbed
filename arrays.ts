@@ -385,6 +385,10 @@ export const VERBS: Entry[] = [
   'commissioned',
   'decommissioned',
   "DeustcheBahn'd",
+  'perjured',
+  'confronted',
+  'examined',
+  'lawyered',
 ];
 
 export const SUBJECTS: Entry[] = [
