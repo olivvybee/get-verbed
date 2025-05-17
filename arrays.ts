@@ -393,6 +393,17 @@ export const VERBS: Entry[] = [
   'seduced',
   'separated',
   'clarified',
+  'reblogged',
+  'chastised',
+  'supported',
+  'ignited',
+  'denied',
+  'approved',
+  'preordered',
+  'pierced',
+  'summarised',
+  'folded',
+  'unfolded',
 ];
 
 export const SUBJECTS: Entry[] = [
