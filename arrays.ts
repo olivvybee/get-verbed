@@ -404,6 +404,11 @@ export const VERBS: Entry[] = [
   'summarised',
   'folded',
   'unfolded',
+  'vaccinated',
+  'vended',
+  'mended',
+  'blended',
+  'baked',
 ];
 
 export const SUBJECTS: Entry[] = [
