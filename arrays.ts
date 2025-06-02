@@ -409,6 +409,8 @@ export const VERBS: Entry[] = [
   'mended',
   'blended',
   'baked',
+  "JPEG'd",
+  'pinged',
 ];
 
 export const SUBJECTS: Entry[] = [
