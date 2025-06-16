@@ -411,6 +411,7 @@ export const VERBS: Entry[] = [
   'baked',
   "JPEG'd",
   'pinged',
+  'knighted',
 ];
 
 export const SUBJECTS: Entry[] = [
@@ -439,4 +440,5 @@ export const SUBJECTS: Entry[] = [
   'lassie',
   'loser',
   'chief',
+  'chat',
 ];
