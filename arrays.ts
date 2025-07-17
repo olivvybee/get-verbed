@@ -412,6 +412,7 @@ export const VERBS: Entry[] = [
   "JPEG'd",
   'pinged',
   'knighted',
+  'microchipped',
 ];
 
 export const SUBJECTS: Entry[] = [
