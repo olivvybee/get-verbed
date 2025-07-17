@@ -435,6 +435,7 @@ export const SUBJECTS: Entry[] = [
   "guv'nor",
   'captain',
   'princess',
+  { word: 'idiot', cw: 'aggressive, tsundere' },
   'minister',
   'lad',
   'lassie',
