@@ -413,6 +413,8 @@ export const VERBS: Entry[] = [
   'pinged',
   'knighted',
   'microchipped',
+  'microwaved',
+  'cooked',
 ];
 
 export const SUBJECTS: Entry[] = [
