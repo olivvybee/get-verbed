@@ -415,6 +415,7 @@ export const VERBS: Entry[] = [
   'microchipped',
   'microwaved',
   'cooked',
+  'licensed',
 ];
 
 export const SUBJECTS: Entry[] = [
