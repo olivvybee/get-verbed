@@ -418,6 +418,12 @@ export const VERBS: Entry[] = [
   'licensed',
   'refactored',
   'fettled',
+  'pezzed',
+  'tiktoked',
+  'screwdrivered',
+  'unhinged',
+  'corndogged',
+  'jortsed',
 ];
 
 export const SUBJECTS: Entry[] = [
@@ -460,4 +466,7 @@ export const SUBJECTS: Entry[] = [
   'your honour',
   'doctor',
   'comrade',
+  'horse',
+  'doll',
+  'girlboss',
 ];
