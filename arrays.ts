@@ -424,6 +424,7 @@ export const VERBS: Entry[] = [
   'unhinged',
   'corndogged',
   'jortsed',
+  'K-Lined',
 ];
 
 export const SUBJECTS: Entry[] = [
