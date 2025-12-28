@@ -427,6 +427,7 @@ export const VERBS: Entry[] = [
   'K-Lined',
   'conjugated',
   'quibbled',
+  'DECTed',
 ];
 
 export const SUBJECTS: Entry[] = [
