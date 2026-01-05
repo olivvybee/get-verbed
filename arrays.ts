@@ -146,7 +146,7 @@ export const VERBS: Entry[] = [
   'backed up',
   'treated',
   'changed',
-  'defenestrated',
+  { word: 'defenestrated', cw: 'aggressive?' },
   'carbonated',
   'decriminalised',
   'tucked in',
