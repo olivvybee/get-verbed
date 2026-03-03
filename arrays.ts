@@ -429,6 +429,7 @@ export const VERBS: Entry[] = [
   'quibbled',
   'DECTed',
   'pecked',
+  'wrenched',
 ];
 
 export const SUBJECTS: Entry[] = [
