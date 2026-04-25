@@ -475,4 +475,6 @@ export const SUBJECTS: Entry[] = [
   'horse',
   'doll',
   'girlboss',
+  "m'lord",
+  "m'lady",
 ];
