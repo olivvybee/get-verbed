@@ -433,6 +433,8 @@ export const VERBS: Entry[] = [
   'tailed',
   'scaled',
   'tailscaled',
+  'nibbled',
+  'nobbled',
 ];
 
 export const SUBJECTS: Entry[] = [
